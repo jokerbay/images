@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T09:36:54.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="14.5.8" etag="g0nZtmYFpqsxPD4f6zVf" type="github"><diagram id="ULBKaDjreHo9A1SXnau3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-09T09:54:08.615Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="dRLnHCWMMxalEOGXjSX3" version="14.5.8" type="github">
+  <diagram id="ULBKaDjreHo9A1SXnau3" name="第 1 页">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sP6KNoqIeSjKQNFw_krz-2" value="进程地址空间" style="verticalLabelPosition=top;verticalAlign=bottom;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;direction=south;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="240" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="sP6KNoqIeSjKQNFw_krz-3" value="内核态代码与数据" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Verdana;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sP6KNoqIeSjKQNFw_krz-6" value="内核栈" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sP6KNoqIeSjKQNFw_krz-7" value="进程代码与数据" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sP6KNoqIeSjKQNFw_krz-8" value="用户栈" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sP6KNoqIeSjKQNFw_krz-9" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="255" width="240" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="sP6KNoqIeSjKQNFw_krz-10" value="进程私有" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontFamily=Verdana;size=0;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="220" y="170" width="30" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="sP6KNoqIeSjKQNFw_krz-12" value="用户空间" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontFamily=Verdana;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="550" y="265" width="50" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="sP6KNoqIeSjKQNFw_krz-13" value="内核空间" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontFamily=Verdana;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="550" y="80" width="50" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="sP6KNoqIeSjKQNFw_krz-14" value="进程共享" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=right;labelPosition=left;pointerEvents=1;fontFamily=Verdana;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sP6KNoqIeSjKQNFw_krz-16" value="内核代码供所有进程系统调用时执行，所以需要共享" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="10" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sP6KNoqIeSjKQNFw_krz-17" value="内核栈需要存什么东西呢？第一，执行内核态代码时的运行数据，第二是存放进程切换时用户态的程序上下文，还保存了PCB信息，这可以加速CPU对进程的访问信息。" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="30" y="180" width="120" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
